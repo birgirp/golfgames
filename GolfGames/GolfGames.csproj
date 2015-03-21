@@ -161,15 +161,20 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\GolfcoursesController.cs" />
+    <Compile Include="Controllers\CompetitionController.cs" />
+    <Compile Include="Controllers\GolfcourseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\TeeController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="DAL\CourseContext.cs" />
     <Compile Include="DAL\CoursesInitializer.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Competition.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Golfcourse.cs" />
@@ -233,11 +238,26 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Golfcourses\Create.cshtml" />
-    <Content Include="Views\Golfcourses\Delete.cshtml" />
-    <Content Include="Views\Golfcourses\Details.cshtml" />
-    <Content Include="Views\Golfcourses\Edit.cshtml" />
-    <Content Include="Views\Golfcourses\Index.cshtml" />
+    <Content Include="Views\Competition\Create.cshtml" />
+    <Content Include="Views\Competition\Delete.cshtml" />
+    <Content Include="Views\Competition\Details.cshtml" />
+    <Content Include="Views\Competition\Edit.cshtml" />
+    <Content Include="Views\Competition\Index.cshtml" />
+    <Content Include="Views\User\Create.cshtml" />
+    <Content Include="Views\User\Delete.cshtml" />
+    <Content Include="Views\User\Details.cshtml" />
+    <Content Include="Views\User\Edit.cshtml" />
+    <Content Include="Views\User\Index.cshtml" />
+    <Content Include="Views\Golfcourse\Create.cshtml" />
+    <Content Include="Views\Golfcourse\Delete.cshtml" />
+    <Content Include="Views\Golfcourse\Details.cshtml" />
+    <Content Include="Views\Golfcourse\Edit.cshtml" />
+    <Content Include="Views\Golfcourse\Index.cshtml" />
+    <Content Include="Views\Tee\Create.cshtml" />
+    <Content Include="Views\Tee\Delete.cshtml" />
+    <Content Include="Views\Tee\Details.cshtml" />
+    <Content Include="Views\Tee\Edit.cshtml" />
+    <Content Include="Views\Tee\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

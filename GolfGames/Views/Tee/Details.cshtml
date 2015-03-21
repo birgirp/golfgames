@@ -1,0 +1,66 @@
+﻿@model GolfGames.Models.Tee
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Tee</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Golfcourse.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Golfcourse.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Par)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Par)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Lenght)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lenght)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Scratch)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Scratch)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Slope)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Slope)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System;
 
 namespace GolfGames.Models
 {
@@ -79,6 +80,8 @@ namespace GolfGames.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        public int Forgjof { get; set; }
     }
 
     public class ResetPasswordViewModel
